@@ -9,31 +9,31 @@ const Hero = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6 md:pr-6">
             <h1 className="text-4xl md:text-5xl font-bold text-vonlop-text tracking-tight">
-              <span className="text-vonlop-primary">AI Voice Agents</span> That Answer Your Business Calls
+              <span className="text-vonlop-primary">Assistenti Vocali AI</span> Che Rispondono Alle Chiamate Della Tua Attività
             </h1>
             <p className="text-lg md:text-xl text-vonlop-text/80">
-              Vonlop delivers ready-to-use AI voice agents that handle inbound calls, book appointments, and answer service-related questions — with zero coding or complex setup.
+              Vonlop offre assistenti vocali AI pronti all'uso che gestiscono chiamate in entrata, prenotano appuntamenti e rispondono a domande sui servizi — senza necessità di programmazione o configurazioni complesse.
             </p>
             <div className="space-y-3">
               <div className="flex items-center gap-2">
                 <Check className="text-vonlop-cta" size={20} />
-                <p>24/7 appointment scheduling</p>
+                <p>Pianificazione degli appuntamenti 24/7</p>
               </div>
               <div className="flex items-center gap-2">
                 <Check className="text-vonlop-cta" size={20} />
-                <p>Handles service and pricing inquiries</p>
+                <p>Gestisce domande su servizi e prezzi</p>
               </div>
               <div className="flex items-center gap-2">
                 <Check className="text-vonlop-cta" size={20} />
-                <p>Multilingual support</p>
+                <p>Supporto multilingua</p>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <Button className="bg-vonlop-cta hover:bg-vonlop-cta/90 text-white px-8 py-6 text-lg">
-                Request Demo
+                Richiedi Demo
               </Button>
               <Button variant="outline" className="border-vonlop-primary text-vonlop-primary hover:bg-vonlop-primary/5 px-8 py-6 text-lg">
-                Book Consultation
+                Prenota Consulenza
               </Button>
             </div>
           </div>
@@ -44,14 +44,14 @@ const Hero = () => {
               <div className="bg-vonlop-background p-4 rounded-lg border border-vonlop-primary/20">
                 <div className="flex items-center gap-3 mb-2">
                   <Calendar className="text-vonlop-primary" />
-                  <h3 className="font-medium">Appointment Booking</h3>
+                  <h3 className="font-medium">Prenotazione Appuntamento</h3>
                 </div>
                 <p className="text-sm text-vonlop-text/70">
-                  "I'd like to schedule a haircut for next Tuesday afternoon."
+                  "Vorrei prenotare un taglio di capelli per martedì pomeriggio."
                 </p>
                 <div className="mt-3 p-2 bg-white rounded border border-vonlop-accent/30">
                   <p className="text-sm text-vonlop-text/80">
-                    "Great! I have availability at 2:00 PM or 4:30 PM next Tuesday. Which would you prefer?"
+                    "Perfetto! Ho disponibilità alle 14:00 o alle 16:30 martedì. Quale preferisci?"
                   </p>
                 </div>
               </div>
@@ -59,14 +59,14 @@ const Hero = () => {
               <div className="bg-vonlop-background p-4 rounded-lg border border-vonlop-primary/20">
                 <div className="flex items-center gap-3 mb-2">
                   <MessageCircle className="text-vonlop-primary" />
-                  <h3 className="font-medium">Service Information</h3>
+                  <h3 className="font-medium">Informazioni sui Servizi</h3>
                 </div>
                 <p className="text-sm text-vonlop-text/70">
-                  "How long does a full set of acrylic nails take?"
+                  "Quanto tempo ci vuole per una ricostruzione completa con acrilico?"
                 </p>
                 <div className="mt-3 p-2 bg-white rounded border border-vonlop-accent/30">
                   <p className="text-sm text-vonlop-text/80">
-                    "A full set of acrylic nails typically takes about 60-90 minutes. Would you like to book an appointment?"
+                    "Una ricostruzione unghie completa in acrilico richiede circa 60-90 minuti. Desideri prenotare un appuntamento?"
                   </p>
                 </div>
               </div>

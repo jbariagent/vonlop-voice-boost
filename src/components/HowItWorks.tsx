@@ -5,18 +5,18 @@ const HowItWorks = () => {
   const steps = [
     {
       icon: <Phone className="text-white" size={24} />,
-      title: "Connect Your Phone",
-      description: "Your AI voice agent integrates with your existing phone system in minutes."
+      title: "Collega il Tuo Telefono",
+      description: "Il tuo assistente vocale AI si integra con il tuo sistema telefonico esistente in pochi minuti."
     },
     {
       icon: <Calendar className="text-white" size={24} />,
-      title: "Customize Your Agent",
-      description: "Set your services, business hours, pricing, and booking policies."
+      title: "Personalizza il Tuo Assistente",
+      description: "Imposta i tuoi servizi, orari di lavoro, prezzi e politiche di prenotazione."
     },
     {
       icon: <MessageSquare className="text-white" size={24} />,
-      title: "Let Vonlop Handle Calls",
-      description: "Sit back as your AI voice agent books appointments and answers questions 24/7."
+      title: "Lascia che Vonlop Gestisca le Chiamate",
+      description: "Rilassati mentre il tuo assistente vocale AI prenota appuntamenti e risponde a domande 24/7."
     }
   ];
 
@@ -25,11 +25,11 @@ const HowItWorks = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-vonlop-text mb-4">
-            How It <span className="text-vonlop-primary">Works</span>
+            Come <span className="text-vonlop-primary">Funziona</span>
           </h2>
           <p className="text-lg text-vonlop-text/70 max-w-2xl mx-auto">
-            Get your AI voice agent up and running in minutes, not months.
-            No coding, complex setup, or technical knowledge required.
+            Attiva il tuo assistente vocale AI in pochi minuti, non mesi.
+            Nessun codice, configurazione complessa o conoscenze tecniche richieste.
           </p>
         </div>
 

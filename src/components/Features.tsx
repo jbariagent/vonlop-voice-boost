@@ -5,33 +5,33 @@ const Features = () => {
   const features = [
     {
       icon: <Calendar className="text-vonlop-primary" size={24} />,
-      title: "24/7 Appointment Booking",
-      description: "Never miss another booking opportunity, even outside business hours."
+      title: "Prenotazione Appuntamenti 24/7",
+      description: "Non perdere mai più un'opportunità di prenotazione, anche fuori dall'orario lavorativo."
     },
     {
       icon: <MessageCircle className="text-vonlop-primary" size={24} />,
-      title: "Service & Pricing Inquiries",
-      description: "Instantly answer questions about your services and rates."
+      title: "Informazioni su Servizi e Prezzi",
+      description: "Rispondi istantaneamente alle domande sui tuoi servizi e tariffe."
     },
     {
       icon: <Info className="text-vonlop-primary" size={24} />,
-      title: "Business Information",
-      description: "Share hours, location, and policies automatically with every caller."
+      title: "Informazioni sull'Attività",
+      description: "Condividi orari, posizione e politiche automaticamente con ogni chiamante."
     },
     {
       icon: <Users className="text-vonlop-primary" size={24} />,
-      title: "Multilingual Support",
-      description: "Serve customers in their preferred language without additional staff."
+      title: "Supporto Multilingua",
+      description: "Servi i clienti nella loro lingua preferita senza personale aggiuntivo."
     },
     {
       icon: <Check className="text-vonlop-primary" size={24} />,
-      title: "Consistent Communication",
-      description: "Deliver reliable information with the same quality every time."
+      title: "Comunicazione Coerente",
+      description: "Fornisci informazioni affidabili con la stessa qualità ogni volta."
     },
     {
       icon: <DollarSign className="text-vonlop-primary" size={24} />,
-      title: "Cost-Efficient",
-      description: "Fraction of the cost of hiring a receptionist or answering service."
+      title: "Economicamente Vantaggioso",
+      description: "Una frazione del costo di assumere un receptionist o un servizio di risposta."
     }
   ];
 
@@ -40,10 +40,10 @@ const Features = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-vonlop-text mb-4">
-            Key <span className="text-vonlop-primary">Features</span>
+            Caratteristiche <span className="text-vonlop-primary">Principali</span>
           </h2>
           <p className="text-lg text-vonlop-text/70 max-w-2xl mx-auto">
-            Vonlop handles your routine phone calls so you can focus on what matters most – your clients and your craft.
+            Vonlop gestisce le tue chiamate telefoniche di routine così puoi concentrarti su ciò che conta di più – i tuoi clienti e la tua professionalità.
           </p>
         </div>
 

@@ -21,16 +21,16 @@ const Navbar = () => {
 
         <div className="hidden md:flex space-x-8">
           <a href="#how-it-works" className="text-vonlop-text hover:text-vonlop-primary transition-colors">
-            How It Works
+            Come Funziona
           </a>
           <a href="#who-its-for" className="text-vonlop-text hover:text-vonlop-primary transition-colors">
-            Who It's For
+            Per Chi È
           </a>
           <a href="#features" className="text-vonlop-text hover:text-vonlop-primary transition-colors">
-            Features
+            Funzionalità
           </a>
           <a href="#pricing" className="text-vonlop-text hover:text-vonlop-primary transition-colors">
-            Pricing
+            Prezzi
           </a>
           <a href="#faq" className="text-vonlop-text hover:text-vonlop-primary transition-colors">
             FAQ
@@ -39,7 +39,7 @@ const Navbar = () => {
 
         <div className="hidden md:block">
           <Button className="bg-vonlop-cta hover:bg-vonlop-cta/90 text-white">
-            Request Demo
+            Richiedi Demo
           </Button>
         </div>
 
@@ -59,28 +59,28 @@ const Navbar = () => {
               className="text-vonlop-text hover:text-vonlop-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              How It Works
+              Come Funziona
             </a>
             <a 
               href="#who-its-for" 
               className="text-vonlop-text hover:text-vonlop-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Who It's For
+              Per Chi È
             </a>
             <a 
               href="#features" 
               className="text-vonlop-text hover:text-vonlop-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Features
+              Funzionalità
             </a>
             <a 
               href="#pricing" 
               className="text-vonlop-text hover:text-vonlop-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Pricing
+              Prezzi
             </a>
             <a 
               href="#faq" 
@@ -90,7 +90,7 @@ const Navbar = () => {
               FAQ
             </a>
             <Button className="bg-vonlop-cta hover:bg-vonlop-cta/90 text-white w-full">
-              Request Demo
+              Richiedi Demo
             </Button>
           </div>
         </div>

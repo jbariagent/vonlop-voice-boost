@@ -6,21 +6,21 @@ import { ArrowRight } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Vonlop has revolutionized our salon's booking process. We're booking 30% more appointments and our staff can focus on clients actually in the salon.",
-      name: "Sarah Johnson",
-      role: "Owner, Elegance Hair Salon",
+      quote: "Vonlop ha rivoluzionato il processo di prenotazione del nostro salone. Abbiamo un 30% in più di appuntamenti e il nostro staff può concentrarsi sui clienti effettivamente presenti in salone.",
+      name: "Sara Bianchi",
+      role: "Proprietaria, Salone Elegance",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&h=150&q=80"
     },
     {
-      quote: "The AI voice agent handles all our routine calls perfectly. Our clients love that they can book appointments any time, even at 2 AM!",
-      name: "Michael Chen",
-      role: "Manager, Tranquil Spa",
+      quote: "L'assistente vocale AI gestisce perfettamente tutte le nostre chiamate di routine. I nostri clienti adorano poter prenotare appuntamenti in qualsiasi momento, anche alle 2 del mattino!",
+      name: "Marco Rossi",
+      role: "Direttore, Spa Tranquillità",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&h=150&q=80"
     },
     {
-      quote: "As a small nail salon, we couldn't afford a full-time receptionist. Vonlop gives us the same capabilities at a fraction of the cost.",
-      name: "Jessica Williams",
-      role: "Owner, Polished Nail Boutique",
+      quote: "Come piccolo centro estetico, non potevamo permetterci un receptionist a tempo pieno. Vonlop ci offre le stesse capacità a una frazione del costo.",
+      name: "Giulia Verdi",
+      role: "Proprietaria, Boutique Nail Art",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&h=150&q=80"
     }
   ];
@@ -36,10 +36,10 @@ const Testimonials = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-vonlop-text mb-4">
-            What Our <span className="text-vonlop-primary">Clients</span> Say
+            Cosa Dicono i Nostri <span className="text-vonlop-primary">Clienti</span>
           </h2>
           <p className="text-lg text-vonlop-text/70 max-w-2xl mx-auto">
-            Hear from businesses that have transformed their customer experience with Vonlop.
+            Ascolta le testimonianze di attività che hanno trasformato l'esperienza dei loro clienti con Vonlop.
           </p>
         </div>
 
@@ -79,7 +79,7 @@ const Testimonials = () => {
                 className={`w-3 h-3 rounded-full mx-1 ${
                   index === activeIndex ? "bg-vonlop-primary" : "bg-vonlop-primary/30"
                 }`}
-                aria-label={`Go to testimonial ${index + 1}`}
+                aria-label={`Vai alla testimonianza ${index + 1}`}
               />
             ))}
           </div>
@@ -90,7 +90,7 @@ const Testimonials = () => {
               onClick={nextTestimonial}
               className="text-vonlop-primary hover:bg-vonlop-primary/5 flex items-center"
             >
-              Next testimonial <ArrowRight className="ml-2" size={16} />
+              Prossima testimonianza <ArrowRight className="ml-2" size={16} />
             </Button>
           </div>
         </div>

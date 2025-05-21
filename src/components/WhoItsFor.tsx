@@ -4,16 +4,16 @@ import { Check } from "lucide-react";
 const WhoItsFor = () => {
   const businesses = [
     {
-      title: "Hair Salons",
-      features: ["24/7 appointment booking", "Service & pricing inquiries", "Stylist availability"]
+      title: "Saloni di Parrucchiere",
+      features: ["Prenotazione appuntamenti 24/7", "Richieste su servizi e prezzi", "Disponibilità degli stilisti"]
     },
     {
-      title: "Nail Salons",
-      features: ["Schedule new appointments", "Answer common questions", "Provide service times"]
+      title: "Centri Estetici",
+      features: ["Pianificazione nuovi appuntamenti", "Risposte alle domande comuni", "Fornire tempi dei servizi"]
     },
     {
-      title: "Spas & Wellness",
-      features: ["Manage treatment bookings", "Explain services", "Handle cancellations"]
+      title: "Spa e Centri Benessere",
+      features: ["Gestione prenotazioni trattamenti", "Spiegazione dei servizi", "Gestione cancellazioni"]
     }
   ];
 
@@ -22,10 +22,10 @@ const WhoItsFor = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-vonlop-text mb-4">
-            Who It's <span className="text-vonlop-primary">For</span>
+            Per <span className="text-vonlop-primary">Chi È</span>
           </h2>
           <p className="text-lg text-vonlop-text/70 max-w-2xl mx-auto">
-            Vonlop is designed for service-based businesses that rely on appointments and customer inquiries.
+            Vonlop è progettato per attività di servizi che si basano su appuntamenti e richieste dei clienti.
           </p>
         </div>
 

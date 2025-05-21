@@ -6,52 +6,52 @@ const Pricing = () => {
   const plans = [
     {
       name: "Standard",
-      price: "$149",
-      period: "/month",
-      setupFee: "$299 one-time setup",
+      price: "€149",
+      period: "/mese",
+      setupFee: "€299 una tantum per configurazione",
       features: [
-        "Up to 100 calls per month",
-        "Appointment scheduling",
-        "Basic service inquiries",
-        "Business hours information",
-        "Email notifications",
-        "Web dashboard"
+        "Fino a 100 chiamate al mese",
+        "Pianificazione appuntamenti",
+        "Informazioni base sui servizi",
+        "Orari di apertura",
+        "Notifiche email",
+        "Pannello di controllo web"
       ],
-      cta: "Get Started",
+      cta: "Inizia Ora",
       popular: false
     },
     {
-      name: "Professional",
-      price: "$249",
-      period: "/month",
-      setupFee: "$299 one-time setup",
+      name: "Professionale",
+      price: "€249",
+      period: "/mese",
+      setupFee: "€299 una tantum per configurazione",
       features: [
-        "Up to 300 calls per month",
-        "Advanced appointment management",
-        "Detailed service inquiries",
-        "Staff availability management",
-        "SMS notifications",
-        "Calendar integration",
-        "Basic analytics"
+        "Fino a 300 chiamate al mese",
+        "Gestione appuntamenti avanzata",
+        "Informazioni dettagliate sui servizi",
+        "Gestione disponibilità del personale",
+        "Notifiche SMS",
+        "Integrazione calendario",
+        "Analisi di base"
       ],
-      cta: "Request Demo",
+      cta: "Richiedi Demo",
       popular: true
     },
     {
       name: "Enterprise",
-      price: "Custom",
+      price: "Personalizzato",
       period: "",
-      setupFee: "Custom setup & onboarding",
+      setupFee: "Configurazione e onboarding personalizzati",
       features: [
-        "Unlimited calls",
-        "Multiple locations",
-        "Custom workflows",
-        "API integrations",
-        "Priority support",
-        "Advanced analytics",
-        "White-labeled service"
+        "Chiamate illimitate",
+        "Sedi multiple",
+        "Flussi di lavoro personalizzati",
+        "Integrazioni API",
+        "Supporto prioritario",
+        "Analisi avanzate",
+        "Servizio white-label"
       ],
-      cta: "Contact Sales",
+      cta: "Contatta Vendite",
       popular: false
     }
   ];
@@ -61,10 +61,10 @@ const Pricing = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-vonlop-text mb-4">
-            Simple, Transparent <span className="text-vonlop-primary">Pricing</span>
+            Prezzi <span className="text-vonlop-primary">Semplici e Trasparenti</span>
           </h2>
           <p className="text-lg text-vonlop-text/70 max-w-2xl mx-auto">
-            Choose the plan that's right for your business. No hidden fees or long-term contracts.
+            Scegli il piano giusto per la tua attività. Nessun costo nascosto o contratti a lungo termine.
           </p>
         </div>
 
@@ -78,7 +78,7 @@ const Pricing = () => {
             >
               {plan.popular && (
                 <div className="bg-vonlop-primary text-white text-center py-2 font-medium">
-                  Most Popular
+                  Più Popolare
                 </div>
               )}
               <div className="p-8">
@@ -115,7 +115,7 @@ const Pricing = () => {
         
         <div className="mt-12 text-center">
           <p className="text-vonlop-text/70">
-            Need a custom solution? <a href="#" className="text-vonlop-primary font-medium">Contact us</a> for tailored pricing.
+            Hai bisogno di una soluzione personalizzata? <a href="#" className="text-vonlop-primary font-medium">Contattaci</a> per prezzi su misura.
           </p>
         </div>
       </div>

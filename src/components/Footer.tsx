@@ -11,43 +11,43 @@ const Footer = () => {
               vonlop
             </a>
             <p className="text-vonlop-text/70 mb-6">
-              AI voice agents for service-based businesses. Answer calls, book appointments, and grow your business.
+              Assistenti vocali AI per attività di servizi. Rispondi alle chiamate, prenota appuntamenti e fai crescere la tua attività.
             </p>
           </div>
           
           <div>
-            <h3 className="font-semibold mb-4">Product</h3>
+            <h3 className="font-semibold mb-4">Prodotto</h3>
             <ul className="space-y-2">
-              <li><a href="#how-it-works" className="text-vonlop-text/70 hover:text-vonlop-primary">How It Works</a></li>
-              <li><a href="#features" className="text-vonlop-text/70 hover:text-vonlop-primary">Features</a></li>
-              <li><a href="#pricing" className="text-vonlop-text/70 hover:text-vonlop-primary">Pricing</a></li>
+              <li><a href="#how-it-works" className="text-vonlop-text/70 hover:text-vonlop-primary">Come Funziona</a></li>
+              <li><a href="#features" className="text-vonlop-text/70 hover:text-vonlop-primary">Funzionalità</a></li>
+              <li><a href="#pricing" className="text-vonlop-text/70 hover:text-vonlop-primary">Prezzi</a></li>
               <li><a href="#faq" className="text-vonlop-text/70 hover:text-vonlop-primary">FAQ</a></li>
             </ul>
           </div>
           
           <div>
-            <h3 className="font-semibold mb-4">Company</h3>
+            <h3 className="font-semibold mb-4">Azienda</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-vonlop-text/70 hover:text-vonlop-primary">About Us</a></li>
+              <li><a href="#" className="text-vonlop-text/70 hover:text-vonlop-primary">Chi Siamo</a></li>
               <li><a href="#" className="text-vonlop-text/70 hover:text-vonlop-primary">Blog</a></li>
-              <li><a href="#" className="text-vonlop-text/70 hover:text-vonlop-primary">Careers</a></li>
-              <li><a href="#" className="text-vonlop-text/70 hover:text-vonlop-primary">Contact</a></li>
+              <li><a href="#" className="text-vonlop-text/70 hover:text-vonlop-primary">Carriere</a></li>
+              <li><a href="#" className="text-vonlop-text/70 hover:text-vonlop-primary">Contatti</a></li>
             </ul>
           </div>
           
           <div>
-            <h3 className="font-semibold mb-4">Legal</h3>
+            <h3 className="font-semibold mb-4">Legale</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-vonlop-text/70 hover:text-vonlop-primary">Privacy Policy</a></li>
-              <li><a href="#" className="text-vonlop-text/70 hover:text-vonlop-primary">Terms of Service</a></li>
-              <li><a href="#" className="text-vonlop-text/70 hover:text-vonlop-primary">Cookie Policy</a></li>
+              <li><a href="#" className="text-vonlop-text/70 hover:text-vonlop-primary">Informativa sulla Privacy</a></li>
+              <li><a href="#" className="text-vonlop-text/70 hover:text-vonlop-primary">Termini di Servizio</a></li>
+              <li><a href="#" className="text-vonlop-text/70 hover:text-vonlop-primary">Policy sui Cookie</a></li>
             </ul>
           </div>
         </div>
         
         <div className="mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center">
           <p className="text-vonlop-text/70 mb-4 md:mb-0">
-            &copy; {currentYear} Vonlop, Inc. All rights reserved.
+            &copy; {currentYear} Vonlop, Inc. Tutti i diritti riservati.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-vonlop-text/70 hover:text-vonlop-primary">
