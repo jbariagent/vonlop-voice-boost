@@ -2,9 +2,11 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [showDemoForm, setShowDemoForm] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -38,7 +40,10 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:block">
-          <Button className="bg-vonlop-cta hover:bg-vonlop-cta/90 text-white">
+          <Button 
+            className="bg-vonlop-cta hover:bg-vonlop-cta/90 text-white"
+            onClick={() => setShowDemoForm(true)}
+          >
             Richiedi Demo
           </Button>
         </div>
@@ -89,12 +94,68 @@ const Navbar = () => {
             >
               FAQ
             </a>
-            <Button className="bg-vonlop-cta hover:bg-vonlop-cta/90 text-white w-full">
+            <Button 
+              className="bg-vonlop-cta hover:bg-vonlop-cta/90 text-white w-full"
+              onClick={() => {
+                setIsMenuOpen(false);
+                setShowDemoForm(true);
+              }}
+            >
               Richiedi Demo
             </Button>
           </div>
         </div>
       )}
+
+      {/* Dialog for Demo Request */}
+      <Dialog open={showDemoForm} onOpenChange={setShowDemoForm}>
+        <DialogContent className="sm:max-w-md">
+          <DialogHeader>
+            <DialogTitle>Richiedi una Demo</DialogTitle>
+            <DialogDescription>
+              Compila il form sottostante per richiedere una demo personalizzata di Vonlop.
+            </DialogDescription>
+          </DialogHeader>
+          <div className="grid gap-4 py-4">
+            <div className="grid grid-cols-1 gap-2">
+              <label htmlFor="name" className="text-left text-sm font-medium">
+                Nome
+              </label>
+              <input
+                id="name"
+                className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                placeholder="Il tuo nome"
+              />
+            </div>
+            <div className="grid grid-cols-1 gap-2">
+              <label htmlFor="email" className="text-left text-sm font-medium">
+                Email
+              </label>
+              <input
+                id="email"
+                type="email"
+                className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                placeholder="Il tuo indirizzo email"
+              />
+            </div>
+            <div className="grid grid-cols-1 gap-2">
+              <label htmlFor="business" className="text-left text-sm font-medium">
+                Tipo di Attività
+              </label>
+              <input
+                id="business"
+                className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                placeholder="Es. Salone di bellezza, Spa, ecc."
+              />
+            </div>
+          </div>
+          <div className="flex justify-end">
+            <Button onClick={() => setShowDemoForm(false)} className="bg-vonlop-cta hover:bg-vonlop-cta/90 text-white">
+              Invia Richiesta
+            </Button>
+          </div>
+        </DialogContent>
+      </Dialog>
     </nav>
   );
 };
