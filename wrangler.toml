@@ -1,0 +1,7 @@
+
+name = "vonlop-site"
+main = "src/worker/index.js"
+compatibility_date = "2025-05-21"
+
+[site]
+bucket = "./dist"
