@@ -5,3 +5,13 @@ compatibility_date = "2025-05-21"
 
 [site]
 bucket = "./dist"
+
+# Add build configuration to avoid lockfile issues
+[build]
+command = "bun install && bun run build"
+watch_dir = "src"
+
+# Add additional configuration for better error handling
+[build.upload]
+format = "service-worker"
+
